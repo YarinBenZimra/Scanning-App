@@ -11,8 +11,6 @@ const scanWebsite = (req, res) => {
     return res.status(400).json({ error: "Invalid domain format." });
   }
   if (!domain.startsWith("www")) {
-    // Running httpx requests without the 'www' prefix (e.g., "example.com" instead of "www.example.com")
-    // may result in missing CNAME records and other properties in the output.
     domain = `www.${domain}`;
   }
   const command = "httpx";
