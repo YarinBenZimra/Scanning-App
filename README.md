@@ -83,7 +83,7 @@ Install the required dependencies:
 
 The **HTTPX CLI** is used to scan websites. Follow these steps to install it:
 
-1. **Install Go**
+1. **Install Go**:
    HTTPX requires the latest version of _Go_ here you can find the [Installation Instructions](https://go.dev/doc/install)
 
 2. **Installing httpx**:
@@ -95,7 +95,7 @@ go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 3. **Configure PATH (If Needed)**
 
-- **Linux/macOS** Users: Add the Go binary path to your PATH:
+- **Linux/macOS Users**: Add the Go binary path to your PATH:
 
 ```bash
 echo 'export PATH=$PATH:$HOME/go/bin' >> ~/.bashrc
