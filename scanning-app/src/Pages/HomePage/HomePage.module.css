@@ -12,6 +12,9 @@
   background-repeat: no-repeat;
   min-height: 500px;
 }
+.logo {
+  width: 200px;
+}
 .heroContent {
   display: flex;
   justify-content: center;
